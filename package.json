@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pathScript": "node path/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chance": "^1.0.16"
+    "chance": "^1.0.16",
+    "koa": "^2.6.2"
   }
 }
